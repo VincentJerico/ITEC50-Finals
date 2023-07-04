@@ -4,7 +4,7 @@ function changeImage(x, image)
         image.src = 'fb sadvoi.png';
     }    
     if(x==2){
-        image.src = 'ladyvj.png';
+        image.src = 'vj.png';
     }
     if(x==3){
         image.src = 'rupert.png';

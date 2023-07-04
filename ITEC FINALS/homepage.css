@@ -25,7 +25,7 @@ nav {
 }
 .about,.Sched,.prof{
 
-    margin-right: 5px;
+    padding-right: 5px;
 }
 .link{
     background: none;
@@ -90,7 +90,7 @@ a:hover{
     padding: 0;
     border-radius: 10%;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .front{
@@ -159,7 +159,7 @@ h1{
 p{
     font-family: sans-serif;
     font-size: 25px;
-    text-shadow: 1px 1px rgb(41, 60, 63);;
+    text-shadow: 1px 1px rgb(41, 60, 63);
     color:  teal; 
     padding-top: 25px;
 }

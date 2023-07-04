@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profiles</title>
     <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
         <nav>
@@ -22,7 +23,7 @@
                 <button class="prof"><a href="profile.html">Profile</a></button>
             </div>
         </nav>
-        <main>        </main>
+        <main data-aos="slide-down" data-aos-duration="1500">        </main>
             <div class="profiles">
                 <a href="vjprof.html"><img class="vj" src="fb sadvoi.png" onmouseover="changeImage(2,this)" onmouseout="changeImage(1,this)"></a>
                 <h1 class="VIN">Vincent Jerico<br> Alcuran</h1>
@@ -44,5 +45,9 @@
                 <h1 class="JIM">Jimuel<br> Po</h1>
             </div>
 <script src="profiles.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
