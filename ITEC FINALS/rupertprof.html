@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Rupert.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Personal Profile</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
         </div>
         
     </nav> 
-    <div class="Container">
+    <div class="Container" data-aos="slide-down" data-aos-duration="1500">
         <div class="Left_side">
             <div class="Profile_text">
                 <div class="imgBox">
@@ -102,5 +103,28 @@
             </div>
         </div>
     </div>
+    <div class="container2" data-aos="fade-right" data-aos-duration="1500">
+        <div class="col1">
+            <center><img name="slide" width="45%" height="50%" class="slider" /></center>
+            <center><button class="btn" onclick="prev()">Prev</button>
+            <button class="btn" onclick="next()">Next</button></center>
+        </div>
+        <div class="col2">
+            <h1><b>SAMPLE HOBBIES</b></h1>
+            <ul>
+                <li>Motorbiking</li>
+                <li>Online games</li>
+                <li>Binge watching</li>
+                <li>Eating</li>
+            </ul>
+        </div>
+    </div>
+    <script src="rupertprof.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
