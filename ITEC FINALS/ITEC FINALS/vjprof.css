@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220vh;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: #1E6262;
+    padding: .5rem;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+}
+.about,.Sched,.prof{
+
+    padding-right: 5px;
+}
+.link{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    }
+
+a{
+    text-decoration: none;
+    color: #ECFFFB;
+}
+a:hover{
+    color: #B4F1F1; 
+    
+}
+.home{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.about {
+    display: flex;
+    position: relative;
+    margin-left: 85%;
+    color: #1E6262;
+    text-decoration:none ;
+}
+.Sched {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    margin-left: 5px;
+}
+.prof {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.front{
+    z-index: 0;
+    margin-top:120px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20% , rgba(255, 255, 255, 1) ), url(CVSU.png);
+    background-size: 62vh;
+    position: absolute;
+    background-repeat: repeat;
+    height: 220vh;
+    width: 100%;
+    opacity: 75%;
+}
+
+.Container{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #1E6262;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    box-shadow: 5px 8px 10px rgba(138, 137, 137, 0.8);
+
+}
+.Container .Left_side {
+    position: relative;
+    background: #1E6262;
+    padding: 40px; 
+}
+.Profile_text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.Profile_text .imgBox{
+    position: relative;
+    width: 200px;
+    height: 200px
+}
+.Profile_text .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Profile_text h2 {
+    position: absolute;
+    color: white;
+    font-size: 1.43em;
+    margin-top:230px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.Profile_text h2 span 
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.Contact_info
+{
+    margin-top: 120px;
+    padding-top: 40px;
+}
+.title
+{
+    color: #ECFFFB;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.Contact_info ul
+{
+    position: relative;
+
+}
+
+.Contact_info ul li
+{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Contact_info ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #2D767F;
+
+}
+.Contact_info ul 
+{
+    position: relative;
+}
+.Contact_info ul li span
+{
+    color: #ECFFFB;
+    font-weight: 300;
+}
+.Skills_info 
+{
+    color: #ECFFFB;
+    position: relative;
+    font-weight: 300;
+    font-size: 18px;
+    
+    list-style: none;
+    padding-top: 50px;
+    display: inline-block;
+    
+}
+.Skills_info ul
+{
+    position: relative;
+}
+
+.Skills_info ul li
+{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.Skills_info ul li span
+{
+    color: #ECFFFB;
+    font-weight: 300;
+    padding-left: 30px;
+}
+
+
+.Container .Right_side {
+    position: relative;
+    background: #ECFFFB;
+    padding: 40px; 
+}
+
+.About 
+{
+    margin-bottom: 50px;
+}
+.About:last-child
+{
+    margin-bottom: 0;
+}
+.title_2
+{
+    color: #2D767F;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: #1E6262;
+}
+.educ1
+{
+    margin-top: 50px;
+    
+}
+.educ2
+{
+    color: #2D767F;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+h3
+{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+h4
+{
+    margin-left: 40px;
+}
+
+.educ2 p
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    display: flex;
+    position: absolute;
+    margin-top: 1000px;
+}
+
+.col1 {
+    margin-right: 400px;
+
+}
+
+.col2{
+    background-color: rgba(255,255,255,0.7);
+    width: 400px;
+    height: 210px;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: -200px;
+    box-shadow: 5px 8px 10px rgba(138, 137, 137, 0.8);
+
+}
+
+.col2 h1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+.col2 ul {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.slider{
+    margin-top: 5%;
+    border-radius: 25px;
+}
+
+img {
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+    box-shadow: 5px 8px 10px rgba(138, 137, 137, 0.8);
+
+}
+
+.btn{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(114, 187, 192);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 8px 10px rgba(138, 137, 137, 0.8);
+
+}
+.btn:hover{
+    color:white;
+    background-color: black;
+}
