@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:linear-gradient(#B4F1F1 ,rgb(105, 212, 212) , rgb(105, 212, 212), rgba(105, 212, 212, 1));
+    width: 100%;
+    height: 300vh;
+    background-color: #ffffff;
+    z-index: -1;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    background-color: #1E6262;
+    padding: .5rem;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+}
+
+.about,.Sched,.prof{
+    padding-right: 5px;
+}
+.link{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    }
+
+.course {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 250px;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, .20);  
+    backdrop-filter: blur(3px);
+    border-radius: 20%;
+    text-shadow:  1px 1px rgb(41, 60, 63);
+}
+.course h1 {
+    font-family: serif;
+    color: goldenrod;
+}
+.course p {
+    font-family: Poppins;
+}
+
+.website {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 750px;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, .20);  
+    backdrop-filter: blur(3px);
+    border-radius: 20%;
+    text-shadow:  1px 1px rgb(41, 60, 63);
+}
+.website h1 {
+    font-family: serif;
+    color: goldenrod;
+}
+.website p {
+    font-family: Poppins;
+}
+.us {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 750px;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, .40);  
+    backdrop-filter: blur(3px);
+    border-radius: 20%;
+    text-shadow:  1px 1px rgb(41, 60, 63);
+}
+.us h1 {
+    font-family: serif;
+    color: goldenrod;
+}
+.us p {
+    font-family: Poppins;
+}
+
+.firstbg {
+    z-index: 0;
+    background-image: url(ABG1.jpg);
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0));
+}
+.secondbg {
+    z-index: 1;
+    background-image:linear-gradient(to top, rgb(105, 212, 212), rgba(0,0,0,0), rgba(105, 212, 212) ),  url(ABGP5.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 1150px;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 35%;
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0));
+}
+.thirdbg {
+    z-index: 1;
+    background-image:linear-gradient(to top, rgba(105, 212, 212, 1), rgba(0,0,0,0), rgba(105, 212, 212, 1) ),  url(ABGP7.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 2000px;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0));
+}
+
+a{
+    text-decoration: none;
+    color: #ECFFFB;
+}
+a:hover{
+    color: #B4F1F1; 
+    
+}
+.home{
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.about {
+    display: flex;
+    position: relative;
+    margin-left: 85%;
+    color: #1E6262;
+    text-decoration:none ;
+}
+.Sched {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    margin-left: 5px;
+}
+.prof {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #ECFFFB;
+    font-family: Poppins;
+    font-size: medium;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
